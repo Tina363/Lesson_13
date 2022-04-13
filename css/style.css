@@ -28,8 +28,8 @@ body {
 
 .car {
   /* transform: scale(0.5); */
-  transition: 5s;
-  margin-top: 100px;
+/*   transition: 5s; */
+  margin-top: 200px;
   animation-name: car;
   animation-duration: 10s;
   animation-fill-mode: forwards;
