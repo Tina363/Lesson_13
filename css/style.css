@@ -28,7 +28,7 @@ body {
 
 .car {
   /* transform: scale(0.5); */
-/*   transition: 5s; */
+  /* transition: 5s; */
   margin-top: 200px;
   animation-name: car;
   animation-duration: 10s;
@@ -212,7 +212,7 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-
+  transform-origin: 50% bottom;
 }
 
 @keyframes hand {
@@ -254,16 +254,20 @@ body {
   }
 
   30% {
+    /* animation-duration: 0.5s; */
     opacity: 1;
+
     transform: translate(200px, -150px);
   }
 
   60% {
+    /* animation-duration: 0.5s; */
     opacity: 1;
     transform: translate(500px, 150%);
   }
 
   100% {
+    /* animation-duration: 0.5s; */
     opacity: 1;
     display: block;
     transform: translate(800px, 300%);
