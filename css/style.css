@@ -31,7 +31,7 @@ body {
   width: 150px;
   height: 150px;
   top: 100px;
-  right: 100px;
+  right: 150px;
   animation: sun 6s linear infinite 0s;
 }
 
@@ -129,12 +129,10 @@ body {
 @keyframes line {
   0% {
     width: 30px;
-    /* box-shadow: 10px 20px 10px rgb(224, 206, 36); */
   }
 
   100% {
     width: 40px;
-    /* box-shadow: 20px 30px 30px rgb(224, 206, 36); */
   }
 }
 
@@ -155,7 +153,7 @@ body {
 .crow__item:nth-child(1) {
   top: 10%;
   left: 50%;
-  transform-origin: right top;
+  /* transform-origin: right top; */
   transform: scale(-0.5, 0.5);
   opacity: 0;
   animation: crow-1 16s ease 10s 1 backwards;
@@ -163,7 +161,7 @@ body {
 
 @keyframes crow-1 {
   0% {
-    transform: translate(10%, 30%) scale(-0.5, 0.5);
+    transform: translate(0%, 0%) scale(-0.5, 0.5);
     opacity: 0;
   }
 
@@ -191,15 +189,15 @@ body {
   }
 
   100% {
-    transform: translate(10%, 30%) scale(0.5, 0.5) rotate(25deg);
+    transform: translate(0%, 0%) scale(0.5, 0.5) rotate(25deg);
     opacity: 0;
   }
 }
 
 .crow__item:nth-child(2) {
-  top: -30px;
+  /* top: -30px; */
+  top: 0;
   left: 20%;
-  transform-origin: right top;
   transform: scale(-0.5, 0.5);
   opacity: 0;
   animation: crow-2 15s ease-in 10.5s 1 backwards;
@@ -207,7 +205,7 @@ body {
 
 @keyframes crow-2 {
   0% {
-    transform: translate(10%, 30%) scale(-0.5, 0.5);
+    transform: translate(0%, 0%) scale(-0.5, 0.5);
     opacity: 0;
   }
 
@@ -216,17 +214,17 @@ body {
   }
 
   20% {
-    transform: translate(35vw, 80vh) scale(-1, 1) rotate(-10deg);
+    transform: translate(45vw, 80vh) scale(-1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   85% {
-    transform: translate(35vw, 80vh) scale(-1, 1) rotate(-10deg);
+    transform: translate(45vw, 80vh) scale(-1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   90% {
-    transform: translate(35vw, 80vh) scale(1, 1) rotate(20deg);
+    transform: translate(45vw, 80vh) scale(1, 1) rotate(20deg);
     opacity: 1;
   }
 
@@ -235,22 +233,22 @@ body {
   }
 
   100% {
-    transform: translate(10%, 30%) scale(1, 1) rotate(20deg);
+    transform: translate(0%, 0%) scale(1, 1) rotate(20deg);
     opacity: 0;
   }
 }
 
 .crow__item:nth-child(3) {
   top: 200px;
-  right: -30px;
-  transform-origin: right top;
+  right: 0;
+  transform: scale(0.5, 0.5);
   opacity: 0;
   animation: crow-3 14s ease-in-out 11s 1 backwards;
 }
 
 @keyframes crow-3 {
   0% {
-    transform: translate(10%, 30%) scale(0.5, 0.5);
+    transform: translate(0%, 0%) scale(0.5, 0.5);
     opacity: 0;
   }
 
@@ -259,17 +257,17 @@ body {
   }
 
   20% {
-    transform: translate(-26vw, 50vh) scale(1, 1) rotate(-10deg);
+    transform: translate(-16vw, 60vh) scale(1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   85% {
-    transform: translate(-26vw, 50vh) scale(1, 1) rotate(-10deg);
+    transform: translate(-16vw, 60vh) scale(1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   90% {
-    transform: translate(-26vw, 50vh) scale(-1, 1) rotate(20deg);
+    transform: translate(-16vw, 60vh) scale(-1, 1) rotate(20deg);
     opacity: 1;
   }
 
@@ -278,7 +276,7 @@ body {
   }
 
   100% {
-    transform: translate(10%, 30%) scale(-0.5, 0.5);
+    transform: translate(0%, 0%) scale(-0.5, 0.5) rotate(20deg);
     opacity: 0;
   }
 }
