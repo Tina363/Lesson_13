@@ -30,8 +30,8 @@ body {
   position: absolute;
   width: 150px;
   height: 150px;
-  top: 50px;
-  right: 50px;
+  top: 100px;
+  right: 100px;
   animation: sun 6s linear infinite 0s;
 }
 
@@ -172,17 +172,17 @@ body {
   }
 
   20% {
-    transform: translate(30vw, 70vh) scale(-1, 1) rotate(-15deg);
+    transform: translate(20vw, 70vh) scale(-1, 1) rotate(-15deg);
     opacity: 1;
   }
 
   85% {
-    transform: translate(30vw, 70vh) scale(-1, 1) rotate(-15deg);
+    transform: translate(20vw, 70vh) scale(-1, 1) rotate(-15deg);
     opacity: 1;
   }
 
   90% {
-    transform: translate(30vw, 70vh) scale(1, 1) rotate(25deg);
+    transform: translate(20vw, 70vh) scale(1, 1) rotate(25deg);
     opacity: 1;
   }
 
@@ -216,17 +216,17 @@ body {
   }
 
   20% {
-    transform: translate(45vw, 80vh) scale(-1, 1) rotate(-10deg);
+    transform: translate(35vw, 80vh) scale(-1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   85% {
-    transform: translate(45vw, 80vh) scale(-1, 1) rotate(-10deg);
+    transform: translate(35vw, 80vh) scale(-1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   90% {
-    transform: translate(45vw, 80vh) scale(1, 1) rotate(20deg);
+    transform: translate(35vw, 80vh) scale(1, 1) rotate(20deg);
     opacity: 1;
   }
 
@@ -238,7 +238,6 @@ body {
     transform: translate(10%, 30%) scale(1, 1) rotate(20deg);
     opacity: 0;
   }
-
 }
 
 .crow__item:nth-child(3) {
@@ -260,17 +259,17 @@ body {
   }
 
   20% {
-    transform: translate(-13vw, 50vh) scale(1, 1) rotate(-10deg);
+    transform: translate(-26vw, 50vh) scale(1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   85% {
-    transform: translate(-13vw, 50vh) scale(1, 1) rotate(-10deg);
+    transform: translate(-26vw, 50vh) scale(1, 1) rotate(-10deg);
     opacity: 1;
   }
 
   90% {
-    transform: translate(-13vw, 50vh) scale(-1, 1) rotate(20deg);
+    transform: translate(-26vw, 50vh) scale(-1, 1) rotate(20deg);
     opacity: 1;
   }
 
@@ -279,7 +278,7 @@ body {
   }
 
   100% {
-    transform: translate(10%, 30%) scale(0.5, 0.5);
+    transform: translate(10%, 30%) scale(-0.5, 0.5);
     opacity: 0;
   }
 }
